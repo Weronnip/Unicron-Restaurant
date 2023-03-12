@@ -155,7 +155,7 @@ background: #FF0000;
     width: 160px;
     height: 160px;
 }
-#ibth {
+#rubth {
     background: rgb(0, 0, 0);
     color: #fff;
     text-decoration: none;
@@ -171,11 +171,11 @@ background: #FF0000;
     position: relative;
     transition: 1.5s;
 }
-#ibth:hover {
+#rubth:hover {
     background-color: #11101D;
     border-radius: 30px;
 }
-#ibthr {
+#rubthr {
   background: rgb(0, 0, 0);
   color: #fff;
   text-decoration: none;
@@ -190,7 +190,7 @@ background: #FF0000;
   top: 150px;
   transition: 1.5s;
 }
-#ibthr:hover {
+#rubthr:hover {
   background-color: #11101D;
   border-radius: 30px;
 }
