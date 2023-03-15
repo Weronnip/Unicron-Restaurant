@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="date-css/autorez.css">
+    <title>Авторизация</title>
+</head>
+<body>
+    <section class="autorizate">
+        <div class="log">
+            <h4 class="text-log">Войти</h4>
+            <label for="email" class="email">Почта</label>
+            <form action="test.html" method="post">
+                <input type="email" 
+                name="email" 
+                 id="email" 
+                  class="log-email"
+                   placeholder="example@gmail.com">
+
+                <div class="ots">
+                    <br>
+                </div>
+                <label for="email" class="password">Пароль</label>
+                <input type="password"
+                 name="password"
+                  id="password"
+                   class="log-password"
+                   pattern="[a-z]{1 - 15}"
+                    placeholder="Введите пароль">
+                <button type="submit" class="bth" onclick="bth">Войти</button>
+                <button type="submit" class="bth">Регистрация</button>
+            </form>
+        </div>
+    </section>
+</body>
+    <script src="/javascript/autorizeted.js"></script>
+    <script src="/php/autorizate.php"></script>
+</html>
