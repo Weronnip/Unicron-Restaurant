@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/autorez.css">
+    <title>Авторизация</title>
+</head>
+<body>
+    <section class="autorizate">
+        <div class="log">
+            <h4 class="text-log">Войти</h4>
+            <label for="email" class="email">Почта</label>
+            <form action="/profil/profil.html" method="post">
+                <input type="email" 
+                name="email" 
+                 id="email" 
+                  class="log-email"
+                   
+                   pattern="[a-zA-Z0-9]"
+                   placeholder="example@gmail.com">
+
+                <div class="ots">
+                    <br>
+                </div>
+                <label for="email" class="password">Пароль</label>
+                <input type="password"
+                 name="password"
+                  id="password"
+                   class="log-password"
+                   pattern="[a-zA-Z0-9$#-_]"
+                    required
+                     placeholder="Введите пароль">
+                <button type="submit" class="bth" onclick="bth">Войти</button>
+            </form>
+            <a href="/date/register.html" class="abth">Зарегистрироваться</a>
+        </div>
+    </section>
+</body>
+    <script src="/SERVER/php/login.php"></script>
+</html>

@@ -1,0 +1,126 @@
+body {
+    background-image: url(/css/image/1.jpg);
+    margin: 0% auto;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: 'Courier New'
+}
+
+.fons {
+    border-radius: 35px;
+    background-color: #000000ad;
+    width: 500px;
+    height: 600px;
+    left: 450px;
+    position: relative;
+}
+
+.reg {
+    text-decoration: none;
+    top: 15px;
+    left: 5px;
+    width: 350px;
+    height: 550px;
+    position: relative;
+}
+
+.m-text {
+    color: beige;
+    text-align: center;
+    top: 20px;
+    left: 60px;
+    position: relative;
+}
+
+.email {
+    display: block;
+    border: none;
+    border-radius: 15px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #000000af;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    outline: none;
+    width: 180px;
+    height: 40px;
+    left: 160px;
+    top: 20px;
+    position: relative;
+}
+
+.login {
+    display: block;
+    border: none;
+    border-radius: 15px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #000000af;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    outline: none;
+    width: 180px;
+    height: 40px;
+    left: 160px;
+    top: 10px;
+    position: relative;
+}
+
+.file {
+    border: none;
+    border-radius: 5px;
+    box-sizing: content-box;
+    border: none;
+    background-color: #000000af;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    outline: none;
+    width: 280px;
+    height: 40px;
+    left: 110px;
+    top: 10px;
+    position: relative;
+}
+
+.password {
+    border: none;
+    border-radius: 15px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #000000af;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    outline: none;
+    width: 180px;
+    height: 40px;
+    left: 95px;
+    top: 10px;
+    position: relative;
+}
+
+.bth {
+    border: none;
+    border-radius: 25px;
+    background-color: #000000af;
+    color: beige;
+    display: inline-block;
+    right: 1px;
+    font-size: 20px;
+    top: 10px;
+    width: 230px;
+    height: 50px;
+    top: 20px;
+    left: 130px;
+    position: relative;
+    transition: 1s ease-in-out;
+}
+.bth:hover {
+    background-color: rgba(73, 73, 73, 0.541);
+}
+
+.down {
+    padding-top: 5px;
+}

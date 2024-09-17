@@ -1,0 +1,133 @@
+body {
+    background-image: url(/css/image/1.jpg);
+    margin: 0% auto;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: 'Courier New', monospace
+}
+
+.autorizate {
+    border-radius: 35px;
+    background-color: #000000ad;
+    width: 500px;
+    height: 500px;
+    left: 450px;
+    position: relative;
+}
+
+/*login*/
+
+.log {
+    text-decoration: none;
+    top: 100px;
+    left: 150px;
+    width: 350px;
+    height: 300px;
+    position: relative;
+}
+
+.text-log {
+    bottom: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    text-align: center;
+    right: 90px;
+    position: relative;
+}
+
+.email {
+    color: beige;
+    font-size: 15px;
+    font-weight: 400;
+    top: 1px;
+    position: relative;
+}
+
+.password {
+    color: beige;
+    font-size: 15px;
+    font-weight: 400;
+    bottom: 2px;
+    position: relative;
+}
+
+.log-email {
+    display: block;
+    border: none;
+    border-radius: 15px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #000000af;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    outline: none;
+    width: 180px;
+    height: 40px;
+    position: relative;
+}
+
+.log-password {
+    display: block;
+    border: none;
+    border-radius: 15px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #000000af;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    outline: none;
+    width: 180px;
+    height: 40px;
+    position: relative;
+}   
+
+.bth {
+    border: none;
+    border-radius: 25px;
+    background-color: #000000af;
+    color: beige;
+    display: inline-block;
+    right: 1px;
+    font-size: 20px;
+    top: 10px;
+    width: 150px;
+    height: 40px;
+    left: 15px;
+    position: relative;
+    transition: 1s ease-in-out;
+}
+.bth:hover {
+    background-color: rgba(73, 73, 73, 0.541);
+}
+
+.abth {
+    border: none;
+    border-radius: 25px;
+    background-color: #000000af;
+    color: beige;
+    display: inline-block;
+    right: 1px;
+    font-size: 16px;
+    text-decoration: none;
+    top: 30px;
+    width: 180px;
+    height: 30px;
+    padding-left: 3px;
+    padding-top: 10px;
+    left: 2px;
+    position: relative;
+    transition: 1s ease-in-out;
+}
+
+.abth:hover {
+    background-color: rgba(73, 73, 73, 0.541);
+}
+
+.text {
+    color: beige;
+}
+
+.ots {
+    padding-top: 1px;
+}

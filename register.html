@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/registers.css">
+
+    <title>Регистрация</title>
+</head>
+<body>
+    <section class="fons">
+        <div class="reg">
+            <h4 class="m-text">Регистрация</h4>
+
+            <label for="email" class="emailt">Почта</label>
+            <form action="/profil/profil.html" method="post">
+                <input type="email" 
+                        name="email"
+                         id="email"
+                         pattern="[a-zA-Z0-9]"
+                          class="email"
+                           placeholder="example@gmail.com">
+
+                          <div class="down">
+                            <br>
+                          </div>
+                
+                <label for="login" class="text-log">Логин</label>
+                <input type="text"
+                        name="login"
+                         id="login"
+                          pattern="[a-zA-Z0-9]"
+                           required
+                            class="login"
+                             placeholder="Erums">
+
+                           <div class="down">
+                            <br>
+                          </div>
+
+                <label for="password" class="passw">Пароль</label>
+                <input type="password"
+                        name="password"
+                         id="password"
+                          pattern="[a-zA-Z0-9$#-_]"
+                          class="password"
+                           required
+                            placeholder="password">
+
+                            <div class="down">
+                                <br>
+                              </div>
+
+                           <div class="down">
+                            <br>
+                          </div>
+
+                          <label for="photo" class="photo"></label>
+                          <input type="file"
+                                  name="file"
+                                   id="file"
+                                    required
+                                     class="file">
+    
+                          <div class="down">
+                            <br>
+                          </div>
+
+                <button type="submit" class="bth">Зарегистрироваться</button>
+            </form>
+        </div>
+    </section>
+</body>
+    <script src="/SERVER/php/register.php"></script>
+</html>
